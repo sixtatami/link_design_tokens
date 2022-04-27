@@ -74,7 +74,7 @@
     },
     "lineHeights": {
       "0": {
-        "value": "110%",
+        "value": "100%",
         "type": "lineHeights"
       },
       "heading": {
@@ -203,6 +203,10 @@
       },
       "button": {
         "value": "{fontSizes.body1} * 0.875",
+        "type": "fontSizes"
+      },
+      "buttonSmall": {
+        "value": "{fontSizes.body1} * 0.75",
         "type": "fontSizes"
       },
       "caption": {
