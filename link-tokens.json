@@ -92,7 +92,7 @@
         "type": "letterSpacing"
       },
       "1": {
-        "value": "-5%",
+        "value": "-1%",
         "type": "letterSpacing"
       },
       "default": {
@@ -104,7 +104,7 @@
         "type": "letterSpacing"
       },
       "decreased": {
-        "value": "-5%",
+        "value": "-1%",
         "type": "letterSpacing"
       }
     },
