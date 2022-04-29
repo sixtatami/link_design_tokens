@@ -991,7 +991,7 @@
     },
     "lineHeights": {
       "0": {
-        "value": "110%",
+        "value": "100%",
         "type": "lineHeights"
       },
       "heading": {
@@ -1009,7 +1009,7 @@
         "type": "letterSpacing"
       },
       "1": {
-        "value": "-5%",
+        "value": "-1%",
         "type": "letterSpacing"
       },
       "default": {
@@ -1021,7 +1021,7 @@
         "type": "letterSpacing"
       },
       "decreased": {
-        "value": "-5%",
+        "value": "-1%",
         "type": "letterSpacing"
       }
     },
@@ -1120,6 +1120,10 @@
       },
       "button": {
         "value": "{fontSizes.body1} * 0.875",
+        "type": "fontSizes"
+      },
+      "buttonSmall": {
+        "value": "{fontSizes.body1} * 0.75",
         "type": "fontSizes"
       },
       "caption": {
@@ -1406,78 +1410,114 @@
       }
     },
     "buttons": {
-      "action": {
-        "disabledBackground": {
-          "value": "#0000001a",
-          "type": "color"
-        },
-        "active": {
-          "value": "#00000080",
-          "type": "color"
-        },
-        "focus": {
-          "value": "#0000004d",
-          "type": "color"
-        },
-        "hover": {
-          "value": "#00000033",
-          "type": "color"
-        }
-      },
       "primary": {
-        "textContrast": {
+        "text": {
           "value": "#ffffff",
           "type": "color"
         },
-        "colorPrimary": {
-          "value": "#198fd2",
+        "textDisabled": {
+          "value": "#B7B7B7",
+          "type": "color"
+        },
+        "default": {
+          "value": "#0B63A1",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#013F74",
+          "type": "color"
+        },
+        "focus": {
+          "value": "#002148",
+          "type": "color"
+        },
+        "active": {
+          "value": "#002148",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#dedede",
           "type": "color"
         }
       },
       "secondary": {
-        "textContrast": {
-          "value": "#000000c7",
+        "text": {
+          "value": "#0B63A1",
           "type": "color"
         },
-        "colorSecondary": {
-          "value": "#e3e3e3",
-          "type": "color"
-        }
-      },
-      "outline": {
-        "textContrast": {
-          "value": "#fff",
+        "textDisabled": {
+          "value": "#B7B7B7",
           "type": "color"
         },
-        "Background": {
+        "default": {
           "value": "#ffffff",
           "type": "color"
         },
-        "Outline": {
-          "value": "#636363",
+        "hover": {
+          "value": "#F5F5F5",
+          "type": "color"
+        },
+        "focus": {
+          "value": "#EEEEEE",
+          "type": "color"
+        },
+        "active": {
+          "value": "#EEEEEE",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "outline": {
+          "value": "#cecece",
           "type": "color"
         }
       },
       "text": {
-        "textContrast": {
-          "value": "#49b4f1",
+        "text": {
+          "value": "#20262D",
+          "type": "color"
+        },
+        "textDisabled": {
+          "value": "#B7B7B7",
+          "type": "color"
+        },
+        "default": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#F5F5F5",
+          "type": "color"
+        },
+        "focus": {
+          "value": "#EEEEEE",
+          "type": "color"
+        },
+        "active": {
+          "value": "#EEEEEE",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#ffffff",
           "type": "color"
         }
       }
     },
     "background": {
       "default": {
-        "value": "#1f1f1f",
+        "value": "#f1eeee",
         "type": "color"
       },
       "paper": {
-        "value": "#000",
+        "value": "#ffffff",
         "type": "color"
       }
     },
     "text": {
       "disabled": {
-        "value": "rgba(122,122,122,0.6)",
+        "value": "#7a7a7a66",
         "type": "color"
       },
       "primary": {
@@ -1789,7 +1829,7 @@
       }
     },
     "inactive-button": {
-      "value": "40",
+      "value": "30%",
       "type": "opacity"
     }
   }
