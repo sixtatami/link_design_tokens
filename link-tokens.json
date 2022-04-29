@@ -1420,7 +1420,7 @@
           "type": "color"
         },
         "default": {
-          "value": "#0B63A1",
+          "value": "#ff1f00",
           "type": "color"
         },
         "hover": {
@@ -1511,7 +1511,7 @@
         "type": "color"
       },
       "paper": {
-        "value": "#ffffff",
+        "value": "#000",
         "type": "color"
       }
     },
