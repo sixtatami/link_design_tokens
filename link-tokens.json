@@ -494,16 +494,13 @@
     },
     "baseColors": {
       "white": {
-        "white": {
-          "value": "#FFFFFF",
-          "type": "color"
-        }
+        "value": "#FFFFFF",
+        "type": "color"
       },
       "blue": {
         "50": {
           "value": "#DCF1FF",
-          "type": "color",
-          "description": "Base Color Blue"
+          "type": "color"
         },
         "100": {
           "value": "#B4D8FC",
@@ -600,29 +597,29 @@
           "type": "color"
         },
         "hover": {
-          "value": "#013F74",
+          "value": "$baseColors.blue.700",
           "type": "color"
         },
         "focus": {
-          "value": "#002148",
+          "value": "$baseColors.blue.800",
           "type": "color"
         },
         "active": {
-          "value": "#002148",
+          "value": "$baseColors.blue.800",
           "type": "color"
         },
         "disabled": {
-          "value": "#dedede",
+          "value": "$baseColors.grey.300",
           "type": "color"
         }
       },
       "secondary": {
         "text": {
-          "value": "#0B63A1",
+          "value": "$baseColors.blue.600",
           "type": "color"
         },
         "textDisabled": {
-          "value": "#B7B7B7",
+          "value": "$baseColors.grey.500",
           "type": "color"
         },
         "default": {
@@ -630,15 +627,15 @@
           "type": "color"
         },
         "hover": {
-          "value": "#F5F5F5",
+          "value": "$baseColors.grey.200",
           "type": "color"
         },
         "focus": {
-          "value": "#EEEEEE",
+          "value": "$baseColors.grey.300",
           "type": "color"
         },
         "active": {
-          "value": "#EEEEEE",
+          "value": "$baseColors.grey.300",
           "type": "color"
         },
         "disabled": {
@@ -646,7 +643,7 @@
           "type": "color"
         },
         "outline": {
-          "value": "#cecece",
+          "value": "$baseColors.grey.300",
           "type": "color"
         }
       },
@@ -683,11 +680,11 @@
     },
     "background": {
       "default": {
-        "value": "#f1eeee",
+        "value": "$baseColors.grey.200",
         "type": "color"
       },
       "paper": {
-        "value": "#ffffff",
+        "value": "$baseColors.white",
         "type": "color"
       }
     },
