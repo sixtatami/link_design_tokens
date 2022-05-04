@@ -502,7 +502,8 @@
       "blue": {
         "50": {
           "value": "#DCF1FF",
-          "type": "color"
+          "type": "color",
+          "description": "Base Color Blue"
         },
         "100": {
           "value": "#B4D8FC",
