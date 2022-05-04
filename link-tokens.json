@@ -880,10 +880,6 @@
         "value": "96",
         "type": "fontSizes"
       }
-    },
-    "inactive-button": {
-      "value": "30%",
-      "type": "opacity"
     }
   },
   "dark": {
