@@ -492,18 +492,110 @@
         }
       }
     },
+    "baseColors": {
+      "white": {
+        "white": {
+          "value": "#FFFFFF",
+          "type": "color"
+        }
+      },
+      "blue": {
+        "50": {
+          "value": "#DCF1FF",
+          "type": "color"
+        },
+        "100": {
+          "value": "#B4D8FC",
+          "type": "color"
+        },
+        "200": {
+          "value": "#89C3F3",
+          "type": "color"
+        },
+        "300": {
+          "value": "#5CB0ED",
+          "type": "color"
+        },
+        "400": {
+          "value": "#329FE7",
+          "type": "color"
+        },
+        "500": {
+          "value": "#198FD2",
+          "type": "color"
+        },
+        "600": {
+          "value": "#0B63A1",
+          "type": "color"
+        },
+        "700": {
+          "value": "#013F74",
+          "type": "color"
+        },
+        "800": {
+          "value": "#002148",
+          "type": "color"
+        },
+        "900": {
+          "value": "#000A1E",
+          "type": "color"
+        }
+      },
+      "grey": {
+        "50": {
+          "value": "#FAFAFA",
+          "type": "color"
+        },
+        "100": {
+          "value": "#F5F5F5",
+          "type": "color"
+        },
+        "200": {
+          "value": "#EEEEEE",
+          "type": "color"
+        },
+        "300": {
+          "value": "#DEDEDE",
+          "type": "color"
+        },
+        "400": {
+          "value": "#BDBDBD",
+          "type": "color"
+        },
+        "500": {
+          "value": "#9E9E9E",
+          "type": "color"
+        },
+        "600": {
+          "value": "#757575",
+          "type": "color"
+        },
+        "700": {
+          "value": "#616161",
+          "type": "color"
+        },
+        "800": {
+          "value": "#424242",
+          "type": "color"
+        },
+        "900": {
+          "value": "#212121",
+          "type": "color"
+        }
+      }
+    },
     "buttons": {
       "primary": {
         "text": {
-          "value": "#ffffff",
+          "value": "$baseColors.grey.50",
           "type": "color"
         },
         "textDisabled": {
-          "value": "#B7B7B7",
+          "value": "$baseColors.grey.500",
           "type": "color"
         },
         "default": {
-          "value": "#0B63A1",
+          "value": "$baseColors.blue.600",
           "type": "color"
         },
         "hover": {
