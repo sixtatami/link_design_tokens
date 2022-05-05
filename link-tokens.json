@@ -404,41 +404,41 @@
     "tags": {
       "default": {
         "background": {
-          "value": "#ffffff",
+          "value": "#EEEEEE",
           "type": "color"
         },
         "default": {
-          "value": "#DCF1FF",
+          "value": "#4D4D4D",
           "type": "color"
         }
       },
       "global reach": {
         "background": {
-          "value": "#ffffff",
+          "value": "#E5D196",
           "type": "color"
         },
         "default": {
-          "value": "#DCF1FF",
+          "value": "#7D5F04",
           "type": "color"
         }
       },
       "other reach": {
         "background": {
-          "value": "#ffffff",
+          "value": "#E8D6C6",
           "type": "color"
         },
         "default": {
-          "value": "#DCF1FF",
+          "value": "#B47920",
           "type": "color"
         }
       },
       "emerging experts": {
         "background": {
-          "value": "#ffffff",
+          "value": "#BFE193",
           "type": "color"
         },
         "default": {
-          "value": "#DCF1FF",
+          "value": "#0E5F31",
           "type": "color"
         }
       }
@@ -446,31 +446,31 @@
     "notification": {
       "good": {
         "background": {
-          "value": "#ffffff",
+          "value": "#E1FCBE",
           "type": "color"
         },
         "default": {
-          "value": "#DCF1FF",
+          "value": "#6BB908",
           "type": "color"
         }
       },
       "attention": {
         "background": {
-          "value": "#ffffff",
+          "value": "#FFE9BF",
           "type": "color"
         },
         "default": {
-          "value": "#DCF1FF",
+          "value": "#FFA600",
           "type": "color"
         }
       },
       "danger": {
         "background": {
-          "value": "#ffffff",
+          "value": "#FBB8B8",
           "type": "color"
         },
         "default": {
-          "value": "#DCF1FF",
+          "value": "#BA1B1B",
           "type": "color"
         }
       }
@@ -478,41 +478,41 @@
     "activity": {
       "publication": {
         "background": {
-          "value": "#ffffff",
+          "value": "#D6B9FC",
           "type": "color"
         },
         "default": {
-          "value": "#DCF1FF",
+          "value": "#5D3B89",
           "type": "color"
         }
       },
       "trial": {
         "background": {
-          "value": "#ffffff",
+          "value": "#B9E2FA",
           "type": "color"
         },
         "default": {
-          "value": "#DCF1FF",
+          "value": "#198FD2",
           "type": "color"
         }
       },
       "congress": {
         "background": {
-          "value": "#ffffff",
+          "value": "#B4E9CA",
           "type": "color"
         },
         "default": {
-          "value": "#DCF1FF",
+          "value": "#27AE60",
           "type": "color"
         }
       },
       "guideline": {
         "background": {
-          "value": "#ffffff",
+          "value": "#8DE8DF",
           "type": "color"
         },
         "default": {
-          "value": "#DCF1FF",
+          "value": "#009688",
           "type": "color"
         }
       }
