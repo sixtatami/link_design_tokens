@@ -82,7 +82,7 @@
         "type": "lineHeights"
       },
       "body": {
-        "value": "110%",
+        "value": "140%",
         "type": "lineHeights"
       }
     },
@@ -110,11 +110,11 @@
     },
     "paragraphSpacing": {
       "0": {
-        "value": "26",
+        "value": "0",
         "type": "paragraphSpacing"
       },
       "1": {
-        "value": "32",
+        "value": "6",
         "type": "paragraphSpacing"
       },
       "H1": {
@@ -421,7 +421,7 @@
           "lineHeight": "$lineHeights.0",
           "fontSize": "$fontSize.2",
           "letterSpacing": "$letterSpacing.0",
-          "paragraphSpacing": "$paragraphSpacing.0",
+          "paragraphSpacing": "$paragraphSpacing.1",
           "textCase": "$textCase.none",
           "textDecoration": "$textDecoration.none"
         }
@@ -434,7 +434,7 @@
           "lineHeight": "$lineHeights.0",
           "fontSize": "$fontSize.1",
           "letterSpacing": "$letterSpacing.0",
-          "paragraphSpacing": "$paragraphSpacing.0",
+          "paragraphSpacing": "$paragraphSpacing.1",
           "textCase": "$textCase.none",
           "textDecoration": "$textDecoration.none"
         }
