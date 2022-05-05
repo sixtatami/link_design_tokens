@@ -66,10 +66,6 @@
       "roboto": {
         "value": "Roboto",
         "type": "fontFamilies"
-      },
-      "ibm-plex-sans": {
-        "value": "IBM Plex Sans",
-        "type": "fontFamilies"
       }
     },
     "lineHeights": {
@@ -161,36 +157,16 @@
       }
     },
     "fontSizes": {
-      "H1": {
-        "value": "{fontSizes.body1} * 6",
-        "type": "fontSizes"
-      },
-      "H2": {
-        "value": "{fontSizes.body1} * 3.75",
-        "type": "fontSizes"
-      },
-      "H3": {
-        "value": "{fontSizes.body1} * 3",
-        "type": "fontSizes"
-      },
-      "H4": {
+      "Heading1": {
         "value": "{fontSizes.body1} * 2.125",
         "type": "fontSizes"
       },
-      "H5": {
+      "Heading2": {
         "value": "{fontSizes.body1} * 1.5",
         "type": "fontSizes"
       },
-      "H6": {
+      "Heading3": {
         "value": "{fontSizes.body1} * 1.25",
-        "type": "fontSizes"
-      },
-      "subtitle1": {
-        "value": "{fontSizes.body1}",
-        "type": "fontSizes"
-      },
-      "subtitle2": {
-        "value": "{fontSizes.body1} * 0.875",
         "type": "fontSizes"
       },
       "body1": {
@@ -213,201 +189,46 @@
         "value": "{fontSizes.body1} * 0.75",
         "type": "fontSizes"
       },
-      "overline": {
-        "value": "{fontSizes.body1} * 0.75",
+      "mini": {
+        "value": "{fontSizes.body1} * 0.5",
         "type": "fontSizes"
       }
     },
     "typography": {
-      "H1": {
-        "Medium": {
-          "type": "typography",
-          "value": {
-            "fontFamily": "$fontFamilies.roboto",
-            "fontWeight": "$fontWeights.roboto-1",
-            "lineHeight": "$lineHeights.0",
-            "fontSize": "$fontSize.8",
-            "letterSpacing": "$letterSpacing.1",
-            "paragraphSpacing": "$paragraphSpacing.1",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          }
-        },
-        "Regular": {
-          "type": "typography",
-          "value": {
-            "fontFamily": "$fontFamilies.roboto",
-            "fontWeight": "$fontWeights.roboto-0",
-            "lineHeight": "$lineHeights.0",
-            "fontSize": "$fontSize.8",
-            "letterSpacing": "$letterSpacing.1",
-            "paragraphSpacing": "$paragraphSpacing.1",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          }
-        }
-      },
-      "H2": {
-        "Medium": {
-          "type": "typography",
-          "value": {
-            "fontFamily": "$fontFamilies.roboto",
-            "fontWeight": "$fontWeights.roboto-1",
-            "lineHeight": "$lineHeights.0",
-            "fontSize": "$fontSize.7",
-            "letterSpacing": "$letterSpacing.1",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          }
-        },
-        "Regular": {
-          "type": "typography",
-          "value": {
-            "fontFamily": "$fontFamilies.roboto",
-            "fontWeight": "$fontWeights.roboto-0",
-            "lineHeight": "$lineHeights.0",
-            "fontSize": "$fontSize.7",
-            "letterSpacing": "$letterSpacing.1",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          }
-        }
-      },
-      "H3": {
-        "Medium": {
-          "type": "typography",
-          "value": {
-            "fontFamily": "$fontFamilies.roboto",
-            "fontWeight": "$fontWeights.roboto-1",
-            "lineHeight": "$lineHeights.0",
-            "fontSize": "$fontSize.6",
-            "letterSpacing": "$letterSpacing.1",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          }
-        },
-        "Regular": {
-          "type": "typography",
-          "value": {
-            "fontFamily": "$fontFamilies.roboto",
-            "fontWeight": "$fontWeights.roboto-0",
-            "lineHeight": "$lineHeights.0",
-            "fontSize": "$fontSize.6",
-            "letterSpacing": "$letterSpacing.1",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          }
-        }
-      },
-      "H4": {
-        "Medium": {
-          "type": "typography",
-          "value": {
-            "fontFamily": "$fontFamilies.roboto",
-            "fontWeight": "$fontWeights.roboto-1",
-            "lineHeight": "$lineHeights.0",
-            "fontSize": "$fontSize.5",
-            "letterSpacing": "$letterSpacing.1",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          }
-        },
-        "Regular": {
-          "type": "typography",
-          "value": {
-            "fontFamily": "$fontFamilies.roboto",
-            "fontWeight": "$fontWeights.roboto-0",
-            "lineHeight": "$lineHeights.0",
-            "fontSize": "$fontSize.5",
-            "letterSpacing": "$letterSpacing.1",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          }
-        }
-      },
-      "H5": {
-        "Medium": {
-          "type": "typography",
-          "value": {
-            "fontFamily": "$fontFamilies.roboto",
-            "fontWeight": "$fontWeights.roboto-1",
-            "lineHeight": "$lineHeights.0",
-            "fontSize": "$fontSize.4",
-            "letterSpacing": "$letterSpacing.1",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          }
-        },
-        "Regular": {
-          "type": "typography",
-          "value": {
-            "fontFamily": "$fontFamilies.roboto",
-            "fontWeight": "$fontWeights.roboto-0",
-            "lineHeight": "$lineHeights.0",
-            "fontSize": "$fontSize.4",
-            "letterSpacing": "$letterSpacing.1",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          }
-        }
-      },
-      "H6": {
-        "Medium": {
-          "type": "typography",
-          "value": {
-            "fontFamily": "$fontFamilies.roboto",
-            "fontWeight": "$fontWeights.roboto-1",
-            "lineHeight": "$lineHeights.0",
-            "fontSize": "$fontSize.3",
-            "letterSpacing": "$letterSpacing.1",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          }
-        },
-        "Regular": {
-          "type": "typography",
-          "value": {
-            "fontFamily": "$fontFamilies.roboto",
-            "fontWeight": "$fontWeights.roboto-0",
-            "lineHeight": "$lineHeights.0",
-            "fontSize": "$fontSize.3",
-            "letterSpacing": "$letterSpacing.1",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
-          }
-        }
-      },
-      "Subtitle1": {
+      "Headline1": {
         "type": "typography",
         "value": {
           "fontFamily": "$fontFamilies.roboto",
-          "fontWeight": "$fontWeights.roboto-0",
+          "fontWeight": "$fontWeights.roboto-1",
           "lineHeight": "$lineHeights.0",
-          "fontSize": "$fontSize.2",
-          "letterSpacing": "$letterSpacing.0",
+          "fontSize": "$fontSize.6",
+          "letterSpacing": "$letterSpacing.1",
           "paragraphSpacing": "$paragraphSpacing.0",
           "textCase": "$textCase.none",
           "textDecoration": "$textDecoration.none"
         }
       },
-      "Subtitle2": {
+      "Headline2": {
         "type": "typography",
         "value": {
           "fontFamily": "$fontFamilies.roboto",
-          "fontWeight": "$fontWeights.roboto-0",
+          "fontWeight": "$fontWeights.roboto-1",
           "lineHeight": "$lineHeights.0",
-          "fontSize": "$fontSize.1",
-          "letterSpacing": "$letterSpacing.0",
+          "fontSize": "$fontSize.5",
+          "letterSpacing": "$letterSpacing.1",
+          "paragraphSpacing": "$paragraphSpacing.0",
+          "textCase": "$textCase.none",
+          "textDecoration": "$textDecoration.none"
+        }
+      },
+      "Headline3": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "$fontFamilies.roboto",
+          "fontWeight": "$fontWeights.roboto-1",
+          "lineHeight": "$lineHeights.0",
+          "fontSize": "$fontSize.4",
+          "letterSpacing": "$letterSpacing.1",
           "paragraphSpacing": "$paragraphSpacing.0",
           "textCase": "$textCase.none",
           "textDecoration": "$textDecoration.none"
@@ -419,7 +240,7 @@
           "fontFamily": "$fontFamilies.roboto",
           "fontWeight": "$fontWeights.roboto-0",
           "lineHeight": "$lineHeights.1",
-          "fontSize": "$fontSize.2",
+          "fontSize": "$fontSize.3",
           "letterSpacing": "$letterSpacing.0",
           "paragraphSpacing": "$paragraphSpacing.1",
           "textCase": "$textCase.none",
@@ -432,7 +253,7 @@
           "fontFamily": "$fontFamilies.roboto",
           "fontWeight": "$fontWeights.roboto-0",
           "lineHeight": "$lineHeights.0",
-          "fontSize": "$fontSize.1",
+          "fontSize": "$fontSize.2",
           "letterSpacing": "$letterSpacing.0",
           "paragraphSpacing": "$paragraphSpacing.1",
           "textCase": "$textCase.none",
@@ -445,7 +266,7 @@
           "fontFamily": "$fontFamilies.roboto",
           "fontWeight": "$fontWeights.roboto-0",
           "lineHeight": "$lineHeights.0",
-          "fontSize": "$fontSize.1",
+          "fontSize": "$fontSize.2",
           "letterSpacing": "$letterSpacing.0",
           "paragraphSpacing": "$paragraphSpacing.0",
           "textCase": "$textCase.uppercase",
@@ -458,7 +279,7 @@
           "fontFamily": "$fontFamilies.roboto",
           "fontWeight": "$fontWeights.roboto-0",
           "lineHeight": "$lineHeights.0",
-          "fontSize": "$fontSize.0",
+          "fontSize": "$fontSize.1",
           "letterSpacing": "$letterSpacing.0",
           "paragraphSpacing": "$paragraphSpacing.0",
           "textCase": "$textCase.uppercase",
@@ -471,14 +292,14 @@
           "fontFamily": "$fontFamilies.roboto",
           "fontWeight": "$fontWeights.roboto-0",
           "lineHeight": "$lineHeights.0",
-          "fontSize": "$fontSize.0",
+          "fontSize": "$fontSize.1",
           "letterSpacing": "$letterSpacing.0",
           "paragraphSpacing": "$paragraphSpacing.0",
           "textCase": "$textCase.none",
           "textDecoration": "$textDecoration.none"
         }
       },
-      "Overline": {
+      "Mini": {
         "type": "typography",
         "value": {
           "fontFamily": "$fontFamilies.roboto",
@@ -845,39 +666,31 @@
     },
     "fontSize": {
       "0": {
-        "value": "12",
+        "value": "10",
         "type": "fontSizes"
       },
       "1": {
-        "value": "14",
+        "value": "12",
         "type": "fontSizes"
       },
       "2": {
-        "value": "16",
+        "value": "14",
         "type": "fontSizes"
       },
       "3": {
-        "value": "20",
+        "value": "16",
         "type": "fontSizes"
       },
       "4": {
-        "value": "24",
+        "value": "20",
         "type": "fontSizes"
       },
       "5": {
-        "value": "34",
+        "value": "24",
         "type": "fontSizes"
       },
       "6": {
-        "value": "48",
-        "type": "fontSizes"
-      },
-      "7": {
-        "value": "60",
-        "type": "fontSizes"
-      },
-      "8": {
-        "value": "96",
+        "value": "36",
         "type": "fontSizes"
       }
     }
