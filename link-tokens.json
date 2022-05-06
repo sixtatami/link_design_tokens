@@ -200,7 +200,7 @@
         "value": {
           "fontFamily": "$fontFamilies.roboto",
           "fontWeight": "$fontWeights.roboto-1",
-          "lineHeight": "$lineHeights.0",
+          "lineHeight": "$lineHeights.heading",
           "fontSize": "$fontSize.6",
           "letterSpacing": "$letterSpacing.1",
           "paragraphSpacing": "$paragraphSpacing.0",
@@ -213,7 +213,7 @@
         "value": {
           "fontFamily": "$fontFamilies.roboto",
           "fontWeight": "$fontWeights.roboto-1",
-          "lineHeight": "$lineHeights.0",
+          "lineHeight": "$lineHeights.heading",
           "fontSize": "$fontSize.5",
           "letterSpacing": "$letterSpacing.1",
           "paragraphSpacing": "$paragraphSpacing.0",
@@ -226,7 +226,7 @@
         "value": {
           "fontFamily": "$fontFamilies.roboto",
           "fontWeight": "$fontWeights.roboto-1",
-          "lineHeight": "$lineHeights.0",
+          "lineHeight": "$lineHeights.heading",
           "fontSize": "$fontSize.4",
           "letterSpacing": "$letterSpacing.1",
           "paragraphSpacing": "$paragraphSpacing.0",
@@ -239,7 +239,7 @@
         "value": {
           "fontFamily": "$fontFamilies.roboto",
           "fontWeight": "$fontWeights.roboto-0",
-          "lineHeight": "$lineHeights.1",
+          "lineHeight": "$lineHeights.body",
           "fontSize": "$fontSize.3",
           "letterSpacing": "$letterSpacing.0",
           "paragraphSpacing": "$paragraphSpacing.1",
@@ -252,7 +252,7 @@
         "value": {
           "fontFamily": "$fontFamilies.roboto",
           "fontWeight": "$fontWeights.roboto-0",
-          "lineHeight": "$lineHeights.0",
+          "lineHeight": "$lineHeights.body",
           "fontSize": "$fontSize.2",
           "letterSpacing": "$letterSpacing.0",
           "paragraphSpacing": "$paragraphSpacing.1",
