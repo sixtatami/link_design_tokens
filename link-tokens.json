@@ -401,120 +401,98 @@
         "type": "color"
       }
     },
-    "tags": {
-      "default": {
-        "background": {
-          "value": "#EEEEEE",
-          "type": "color"
-        },
-        "default": {
-          "value": "#4D4D4D",
-          "type": "color"
-        }
-      },
-      "global reach": {
-        "background": {
-          "value": "#E5D196",
-          "type": "color"
-        },
-        "default": {
-          "value": "#7D5F04",
-          "type": "color"
-        }
-      },
-      "other reach": {
-        "background": {
-          "value": "#E8D6C6",
-          "type": "color"
-        },
-        "default": {
-          "value": "#B47920",
-          "type": "color"
-        }
-      },
-      "emerging experts": {
-        "background": {
-          "value": "#BFE193",
-          "type": "color"
-        },
-        "default": {
-          "value": "#0E5F31",
-          "type": "color"
-        }
-      }
-    },
-    "notification": {
-      "good": {
-        "background": {
-          "value": "#E1FCBE",
-          "type": "color"
-        },
-        "default": {
-          "value": "#6BB908",
-          "type": "color"
-        }
-      },
-      "attention": {
-        "background": {
-          "value": "#FFE9BF",
-          "type": "color"
-        },
-        "default": {
-          "value": "#FFA600",
-          "type": "color"
-        }
-      },
-      "danger": {
-        "background": {
-          "value": "#FBB8B8",
-          "type": "color"
-        },
-        "default": {
-          "value": "#BA1B1B",
-          "type": "color"
-        }
-      }
-    },
     "activity": {
-      "publication": {
-        "background": {
-          "value": "#D6B9FC",
-          "type": "color"
-        },
-        "default": {
-          "value": "#5D3B89",
-          "type": "color"
-        }
+      "calendar_front": {
+        "value": "#27AE60",
+        "type": "color"
       },
-      "trial": {
-        "background": {
-          "value": "#B9E2FA",
-          "type": "color"
-        },
-        "default": {
-          "value": "#198FD2",
-          "type": "color"
-        }
+      "calendar_back": {
+        "value": "#B4E9CA",
+        "type": "color"
       },
-      "congress": {
-        "background": {
-          "value": "#B4E9CA",
-          "type": "color"
-        },
-        "default": {
-          "value": "#27AE60",
-          "type": "color"
-        }
+      "guideline_front": {
+        "value": "#009688",
+        "type": "color"
       },
-      "guideline": {
-        "background": {
-          "value": "#8DE8DF",
-          "type": "color"
-        },
-        "default": {
-          "value": "#009688",
-          "type": "color"
-        }
+      "guideline_back": {
+        "value": "#8DE8DF",
+        "type": "color"
+      },
+      "publication_front": {
+        "value": "#5D3B89",
+        "type": "color"
+      },
+      "publication_back": {
+        "value": "#D6B9FC",
+        "type": "color"
+      },
+      "trial_front": {
+        "value": "#198FD2",
+        "type": "color"
+      },
+      "trial_back": {
+        "value": "#B9E2FA",
+        "type": "color"
+      }
+    },
+    "tags": {
+      "default_front": {
+        "value": "#4D4D4D",
+        "type": "color"
+      },
+      "default_back": {
+        "value": "#EEEEEE",
+        "type": "color"
+      },
+      "global_front": {
+        "value": "#7D5F04",
+        "type": "color"
+      },
+      "global_back": {
+        "value": "#F8E8BC",
+        "type": "color"
+      },
+      "emerging_front": {
+        "value": "#0E5F31",
+        "type": "color"
+      },
+      "emerging_back": {
+        "value": "#DEFAB9",
+        "type": "color"
+      },
+      "reach_front": {
+        "value": "#7f5515",
+        "type": "color"
+      },
+      "reach_back": {
+        "value": "#EEE1D5",
+        "type": "color"
+      }
+    },
+    "alert": {
+      "good_front": {
+        "value": "#6BB908",
+        "type": "color"
+      },
+      "good_back": {
+        "value": "#E1FCBE",
+        "type": "color"
+      },
+      "attention_front": {
+        "value": "#FFA600",
+        "type": "color"
+      },
+      "attention_back": {
+        "value": "#FFE9BF",
+        "type": "color"
+      },
+      "danger_front": {
+        "value": "#BA1B1B",
+        "type": "color"
+      },
+      "danger_back": {
+        "value": "#FBB8B8",
+        "type": "color"
       }
     },
     "textCase": {
