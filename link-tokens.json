@@ -491,7 +491,7 @@
         "type": "color"
       },
       "danger_back": {
-        "value": "#FBB8B8",
+        "value": "#fdcccc",
         "type": "color"
       }
     },
