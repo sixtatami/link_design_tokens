@@ -415,7 +415,7 @@
         "type": "color"
       },
       "guideline_back": {
-        "value": "#8DE8DF",
+        "value": "#d1f5f1",
         "type": "color"
       },
       "publication_front": {
@@ -423,7 +423,7 @@
         "type": "color"
       },
       "publication_back": {
-        "value": "#D6B9FC",
+        "value": "#eae1f6",
         "type": "color"
       },
       "trial_front": {
