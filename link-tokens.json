@@ -1,7 +1,7 @@
 {
   "light": {
     "spacing": {
-      "scale": {
+      "xxs": {
         "value": "2",
         "type": "spacing"
       },
@@ -10,19 +10,19 @@
         "type": "spacing"
       },
       "sm": {
-        "value": "{spacing.xs} * {spacing.scale}",
+        "value": "6",
         "type": "spacing"
       },
       "md": {
-        "value": "{spacing.sm} * {spacing.scale}",
+        "value": "12",
         "type": "spacing"
       },
       "lg": {
-        "value": "{spacing.md} * {spacing.scale}",
+        "value": "24",
         "type": "spacing"
       },
       "xl": {
-        "value": "{spacing.lg} * {spacing.scale}",
+        "value": "36",
         "type": "spacing"
       }
     },
@@ -521,231 +521,20 @@
       "1": {
         "value": [
           {
-            "color": "#0000001f",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "1",
-            "blur": "3",
-            "spread": "0"
-          },
-          {
-            "color": "#00000024",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "1",
-            "blur": "1",
-            "spread": "0"
-          },
-          {
-            "color": "#00000033",
+            "color": "rgba(0,0,0,0.15)",
             "type": "dropShadow",
             "x": "0",
             "y": "2",
-            "blur": "1",
-            "spread": "-1"
-          }
-        ],
-        "type": "boxShadow"
-      },
-      "2": {
-        "value": [
-          {
-            "color": "#0000001f",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "1",
             "blur": "5",
             "spread": "0"
           },
           {
-            "color": "#00000024",
+            "color": "rgba(0,0,0,0.06)",
             "type": "dropShadow",
             "x": "0",
-            "y": "2",
-            "blur": "2",
-            "spread": "0"
-          },
-          {
-            "color": "#00000033",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "3",
-            "blur": "1",
-            "spread": "-2"
-          }
-        ],
-        "type": "boxShadow"
-      },
-      "3": {
-        "value": [
-          {
-            "color": "#0000001f",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "1",
-            "blur": "8",
-            "spread": "0"
-          },
-          {
-            "color": "#00000024",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "3",
+            "y": "0",
             "blur": "4",
             "spread": "0"
-          },
-          {
-            "color": "#00000033",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "3",
-            "blur": "3",
-            "spread": "-2"
-          }
-        ],
-        "type": "boxShadow"
-      },
-      "4": {
-        "value": [
-          {
-            "color": "#0000001f",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "1",
-            "blur": "10",
-            "spread": "0"
-          },
-          {
-            "color": "#00000024",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "4",
-            "blur": "5",
-            "spread": "0"
-          },
-          {
-            "color": "#00000033",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "2",
-            "blur": "4",
-            "spread": "-1"
-          }
-        ],
-        "type": "boxShadow"
-      },
-      "5": {
-        "value": [
-          {
-            "color": "#0000001f",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "1",
-            "blur": "14",
-            "spread": "0"
-          },
-          {
-            "color": "#00000024",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "5",
-            "blur": "8",
-            "spread": "0"
-          },
-          {
-            "color": "#00000033",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "3",
-            "blur": "5",
-            "spread": "-1"
-          }
-        ],
-        "type": "boxShadow"
-      },
-      "6": {
-        "value": [
-          {
-            "color": "#0000001f",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "1",
-            "blur": "18",
-            "spread": "0"
-          },
-          {
-            "color": "#00000024",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "6",
-            "blur": "10",
-            "spread": "0"
-          },
-          {
-            "color": "#00000033",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "3",
-            "blur": "5",
-            "spread": "-1"
-          }
-        ],
-        "type": "boxShadow"
-      },
-      "7": {
-        "value": [
-          {
-            "color": "#0000001f",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "2",
-            "blur": "16",
-            "spread": "1"
-          },
-          {
-            "color": "#00000024",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "7",
-            "blur": "10",
-            "spread": "1"
-          },
-          {
-            "color": "#00000033",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "4",
-            "blur": "5",
-            "spread": "-2"
-          }
-        ],
-        "type": "boxShadow"
-      },
-      "8": {
-        "value": [
-          {
-            "color": "#0000001f",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "3",
-            "blur": "14",
-            "spread": "2"
-          },
-          {
-            "color": "#00000024",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "8",
-            "blur": "10",
-            "spread": "1"
-          },
-          {
-            "color": "#00000033",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "5",
-            "blur": "5",
-            "spread": "-3"
           }
         ],
         "type": "boxShadow"
@@ -804,19 +593,19 @@
         "type": "spacing"
       },
       "sm": {
-        "value": "{spacing.xs} * {spacing.scale}",
+        "value": "{spacing.xs} * {XXS}",
         "type": "spacing"
       },
       "md": {
-        "value": "{spacing.sm} * {spacing.scale}",
+        "value": "{spacing.sm} * {XXS}",
         "type": "spacing"
       },
       "lg": {
-        "value": "{spacing.md} * {spacing.scale}",
+        "value": "{spacing.md} * {XXS}",
         "type": "spacing"
       },
       "xl": {
-        "value": "{spacing.lg} * {spacing.scale}",
+        "value": "{spacing.lg} * {XXS}",
         "type": "spacing"
       }
     },
