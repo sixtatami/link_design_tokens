@@ -30,14 +30,6 @@
       "sm": {
         "value": "4",
         "type": "borderRadius"
-      },
-      "lg": {
-        "value": "8",
-        "type": "borderRadius"
-      },
-      "xl": {
-        "value": "16",
-        "type": "borderRadius"
       }
     },
     "borderWidth": {
@@ -87,14 +79,6 @@
         "value": "0%",
         "type": "letterSpacing"
       },
-      "1": {
-        "value": "-1%",
-        "type": "letterSpacing"
-      },
-      "default": {
-        "value": "0",
-        "type": "letterSpacing"
-      },
       "increased": {
         "value": "150%",
         "type": "letterSpacing"
@@ -111,14 +95,6 @@
       },
       "1": {
         "value": "6",
-        "type": "paragraphSpacing"
-      },
-      "H1": {
-        "value": "32",
-        "type": "paragraphSpacing"
-      },
-      "H2": {
-        "value": "26",
         "type": "paragraphSpacing"
       }
     },
@@ -182,7 +158,7 @@
           "fontWeight": "$fontWeights.headingRegular",
           "lineHeight": "$lineHeights.heading",
           "fontSize": "$fontSize.6",
-          "letterSpacing": "$letterSpacing.1",
+          "letterSpacing": "$letterSpacing.0",
           "paragraphSpacing": "$paragraphSpacing.0",
           "textCase": "$textCase.none",
           "textDecoration": "$textDecoration.none"
@@ -195,7 +171,7 @@
           "fontWeight": "$fontWeights.headingRegular",
           "lineHeight": "$lineHeights.heading",
           "fontSize": "$fontSize.5",
-          "letterSpacing": "$letterSpacing.1",
+          "letterSpacing": "$letterSpacing.0",
           "paragraphSpacing": "$paragraphSpacing.0",
           "textCase": "$textCase.none",
           "textDecoration": "$textDecoration.none"
@@ -208,7 +184,7 @@
           "fontWeight": "$fontWeights.headingRegular",
           "lineHeight": "$lineHeights.heading",
           "fontSize": "$fontSize.4",
-          "letterSpacing": "$letterSpacing.1",
+          "letterSpacing": "$letterSpacing.0",
           "paragraphSpacing": "$paragraphSpacing.0",
           "textCase": "$textCase.none",
           "textDecoration": "$textDecoration.none"
@@ -246,7 +222,7 @@
           "fontWeight": "$fontWeights.bodyBold",
           "lineHeight": "$lineHeights.body",
           "fontSize": "$fontSizes.body1",
-          "letterSpacing": "$letterSpacing.1",
+          "letterSpacing": "$letterSpacing.0",
           "paragraphSpacing": "$paragraphSpacing.1",
           "textCase": "$textCase.none",
           "textDecoration": "$textDecoration.none"
@@ -259,7 +235,7 @@
           "fontWeight": "{fontWeights.bodyBold}",
           "lineHeight": "$lineHeights.body",
           "fontSize": "$fontSizes.body2",
-          "letterSpacing": "$letterSpacing.1",
+          "letterSpacing": "$letterSpacing.0",
           "paragraphSpacing": "$paragraphSpacing.1",
           "textCase": "$textCase.none",
           "textDecoration": "$textDecoration.none"
