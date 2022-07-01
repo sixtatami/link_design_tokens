@@ -887,6 +887,56 @@
         "type": "color"
       }
     },
+    "diagram": {
+      "diagram_1": {
+        "value": "#5D3B89",
+        "type": "color"
+      },
+      "diagram_2": {
+        "value": "#198FD2",
+        "type": "color"
+      },
+      "diagram_3": {
+        "value": "#54BBF8",
+        "type": "color"
+      },
+      "diagram_4": {
+        "value": "#028A83",
+        "type": "color"
+      },
+      "diagram_5": {
+        "value": "#00BFB4",
+        "type": "color"
+      },
+      "diagram_6": {
+        "value": "#87C71F",
+        "type": "color"
+      },
+      "diagram_7": {
+        "value": "#C96005",
+        "type": "color"
+      },
+      "diagram_8": {
+        "value": "#FA8803",
+        "type": "color"
+      },
+      "diagram_9": {
+        "value": "#FFAE16",
+        "type": "color"
+      },
+      "diagram_10": {
+        "value": "#A33183",
+        "type": "color"
+      },
+      "diagram_11": {
+        "value": "#EC1E89",
+        "type": "color"
+      },
+      "diagram_12": {
+        "value": "#FA6697",
+        "type": "color"
+      }
+    },
     "textCase": {
       "uppercase": {
         "value": "uppercase",
